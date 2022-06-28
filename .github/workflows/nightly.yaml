@@ -1,0 +1,23 @@
+---
+name: Scrape WebCatalog releases nightly
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  scrape-releases:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: install pip packages
+        run: pwd && pip install -r requirements.txt
+
+      - name: update webcatalog-releases.json
+        run: >-
+          curl -s https://webcatalog.io/webcatalog/changelog/ |
+          ./webcatalog-release-scraper.py -o webcatalog-releases.json
+
+      - uses: EndBug/add-and-commit@v9
