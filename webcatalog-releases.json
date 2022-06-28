@@ -1,0 +1,402 @@
+[
+  {
+    "version": "43.4.0",
+    "changes": "- [WEB-192] Fix startup page option \"Spaces\" is not working (#113)\n- [WEB-100] Add localization support (1) (#109)\n- [WEB-190] Upgrade to [email\u00a0protected] (#111)\n- [WEB-189] Upgrade to [email\u00a0protected] (#110)\n- [WEB-100] Add localization support (#100)\n- [WEB-188] Fix corrupted app might prevent app scanning to continue (#108\n- [WEB-187] Fix corrupted package.json breaks app scanning (#107)"
+  },
+  {
+    "version": "43.3.2",
+    "changes": "- [WEB-186] Fix app installation & updating tasks are not queuing properly (#105)"
+  },
+  {
+    "version": "43.3.1",
+    "changes": "- [WEB-185] Fix button to get catalog icon is visible in space creation dialog (#103)\n- [WEB-184] Fix app uninstallation fails on Windows (#102)\n- [WEB-183] Fix app details dialog fails to open (#101)"
+  },
+  {
+    "version": "43.3.0",
+    "changes": "- [NEU-224] Fix setTitleBarOverlay() fails in tray mode on Windows (#98)\n- [WEB-178] Add React error boundary (3) (#97)\n- [WEB-138] Use Typescript for main process (8) (#96)\n- [WEB-160] Use top-level import for mui (2) (#95)\n- [WEB-180] Use inversify (4) (#94)\n- [WEB-180] Use inversify (3) (#93)\n- [WEB-180] Use inversify (2) (#92)\n- [WEB-180] Use inversify (#91)"
+  },
+  {
+    "version": "43.2.0",
+    "changes": "- [WEB-178] Add React error boundary (2) (#89)\n- [WEB-179] Add basic launching test (#88)\n- [WEB-178] Add React error boundary (#87)\n- [WEB-177] Fix minor bugs in renderer code (#86)\n- [WEB-128] Use Redux Toolkit (5) (#85)\n- [WEB-176] Remove experimental account system integration (#84)\n- [WEB-175] Fix web security config is not always enforced (#83)\n- [WEB-174] Fix window buttons don't fit into title bar on Windows (#82)\n- [WEB-173] Fix static files are not loaded in dev mode (#81)"
+  },
+  {
+    "version": "43.1.0",
+    "changes": "- [WEB-128] Use Redux Toolkit (4) (#74)\n- [WEB-168] Remove option to require sudo for installation (#71)\n- [WEB-169] Simplify option to change installation path (#72)\n- [WEB-170] Set default installation path to %APPDATA% on Windows (#73)\n- [WEB-171] Set default installation path to %LOCALAPPDATA% on Windows (#75)\n- [WEB-172] Use native window buttons on Windows (#76)\n- [WEB-172] Use native window buttons on Windows (2) (#79)"
+  },
+  {
+    "version": "43.0.1",
+    "changes": "- [WEB-166] Fix EXE files are double-signed with macOS cert on Windows (#69)\n- [WEB-163] Improve overall UI/UX (2) (#68)\n- [WEB-165] Fix option to keep window always on top shows in wrong place (#67)"
+  },
+  {
+    "version": "43.0.0",
+    "changes": "- [WEB-124] Use Typescript for renderer code (2) (#52)\n- [WEB-124] Use Typescript for renderer code (3) (#54)\n- [WEB-124] Use Typescript for renderer code (4) (#55)\n- [WEB-128] Use Redux Toolkit (1) (#53)\n- [WEB-128] Use Redux Toolkit (2) (#57)\n- [WEB-128] Use Redux Toolkit (3) (#63)\n- [WEB-138] Use Typescript for main process (5) (#58)\n- [WEB-138] Use Typescript for main process (6) (#59)\n- [WEB-138] Use Typescript for main process (7) (#62)\n- [WEB-159] Fix expected linebreaks to be 'LF' but found 'CRLF' (#51)\n- [WEB-160] Use top-level import for mui (#56)\n- [WEB-161] Remove legacy alternative engine support (#60)\n- [WEB-162] Fix invalid state mutation in SET_APP dispatch (#61)\n- [WEB-163] Improve overall UI/UX (#64)\n- [WEB-164] Upgrade to [email\u00a0protected] (#65)"
+  },
+  {
+    "version": "42.2.0",
+    "changes": "- [WEB-156] Check for engine updates when refreshing catalog (#49)\n- [WEB-157] Fix dependency patches are not applied to ESM (#48)\n- [WEB-155] Fix engine update checker doesn't run periodically (#47)\n- [WEB-158] Fix wrong engine name is displayed across the UI (#46)"
+  },
+  {
+    "version": "42.1.0",
+    "changes": "- [WEB-154] Upgrade to [email\u00a0protected] (#44)\n- [WEB-136] Upgrade to MUI v5 (5) (#43)"
+  },
+  {
+    "version": "42.0.4",
+    "changes": "- [WEB-150] Fix app is notarized by Apple (#37)"
+  },
+  {
+    "version": "42.0.3",
+    "changes": "- [WEB-149] Fx Photon experimental version is not fetched correctly (#35)"
+  },
+  {
+    "version": "42.0.2",
+    "changes": "- [WEB-136] Upgrade to MUI v5 (4) (#33)\n- [WEB-148] Fix Notification is not defined (#32)"
+  },
+  {
+    "version": "42.0.1",
+    "changes": "- [WEB-147] Fix forked scripts cannot load webpack chunks in ASAR (#30)\n- [WEB-146] Fix latest version info is unexpected cached for too long (#29\n- [WEB-145] Fix update channel is not changed when the option is switched (#28)"
+  },
+  {
+    "version": "42.0.0",
+    "changes": "- [WEB-124] Use Typescript for renderer code (#13)\n- [WEB-126] Upgrade to [email\u00a0protected] (#1)\n- [WEB-126] Upgrade to [email\u00a0protected] (2) (#5)\n- [WEB-126] Upgrade to [email\u00a0protected] (3) (#7)\n- [WEB-130] Remove backup/restore feature (#2)\n- [WEB-131] Remove redundant features (#3)\n- [WEB-132] Integrate with account system (#4)\n- [WEB-133] Fix pagination CSS is broken with new App Search update (#6)\n- [WEB-136] Upgrade to MUI v5 (1) (#10)\n- [WEB-136] Upgrade to MUI v5 (2) (#12)\n- [WEB-136] Upgrade to MUI v5 (3) (#16)\n- [WEB-137] Fix update check goes directly through S3 instead of CDN (#9)\n- [WEB-138] Use Typescript for main process (#14)\n- [WEB-138] Use Typescript for main process (2) (#15)\n- [WEB-138] Use Typescript for main process (3) (#17)\n- [WEB-139] Replace GitHub Releases with CDN-2 (#18)\n- [WEB-139] Replace GitHub Releases with CDN-2 (2) (#24)\n- [WEB-140] Hide account system in production (#19)\n- [WEB-141] Remove Amplitude integration (#20)\n- [WEB-142] Simplify app updating experience (#21)\n- [WEB-143] Upgrade to [email\u00a0protected] (#23)"
+  },
+  {
+    "version": "41.4.0",
+    "changes": "- [WEB-137] Fix update check goes directly through S3 instead of CDN (#1650)"
+  },
+  {
+    "version": "41.3.1",
+    "changes": "- Downgrade to @elastic/[email\u00a0protected] (#1648)"
+  },
+  {
+    "version": "41.3.0",
+    "changes": "- [WEB-129] Upgrade to [email\u00a0protected] (#1647)\n- Publish builds to S3/CDN-2 (#1646)\n- Revert \"Rename app to \"WebCatalog Classic\" (#1624)\" (#1645)\n- [WEB-125] Set renderer webpack target to 'electron-renderer' (#1644)\n- [WEB-123] Replace connectComponent with hooks (2) (#1643)\n- [WEB-123] Replace connectComponent with hooks (#1642)\n- [WEB-121] Update app submission URL (#1641)"
+  },
+  {
+    "version": "41.2.1",
+    "changes": "- [WEB-116] Upgrade to @sentry/[email\u00a0protected] (2) (#1640)\n- [WEB-120] Fix \"Install Anyway\" button does nothing (#1639)\n- [WEB-119] Fix fetchDepth condition is not recognized by GitHub Actions (#1638)"
+  },
+  {
+    "version": "41.2.0",
+    "changes": "- [WEB-118] Use new versions static API at cdn-1.webcatalog.io (#1637)\n- [WEB-116] Upgrade to @sentry/[email\u00a0protected] (#1636)\n- [WEB-117] Fix missing dependencies when using hooks (#1635)\n- [CU-2buc81e] Fix Sentry CLI can't find the previous release commit SHA (#1634)"
+  },
+  {
+    "version": "41.1.0",
+    "changes": "- [CU-2a0ykrf] Fix app opening functionality doesn't work on Linux (#1633)\n- Upgrade dependencies (#1632)"
+  },
+  {
+    "version": "41.0.0",
+    "changes": "- Fix product name is displayed incorrectly on menu (#1627)"
+  },
+  {
+    "version": "41.0.0-rc",
+    "changes": "- Remove shortcut to restore apps from backup file (#1625)\n- Rename app to \"WebCatalog Classic\" (#1624)"
+  },
+  {
+    "version": "40.4.1",
+    "changes": "- Upgrade to [email\u00a0protected] (#1622)"
+  },
+  {
+    "version": "40.4.0",
+    "changes": "- Fix title bar double-click behavior doesn't respect system preference (#1584)\n- Remove cloud integration (#1619)\n- Remove webcatalog: protocol support (#1621)\n- Upgrade dependencies (#1620)"
+  },
+  {
+    "version": "40.3.0",
+    "changes": "- Upgrade dependencies (#1582)\n- Show spaces in catalog page (#1581)\n- Upgrade to [email\u00a0protected] (#1575)\n- Fix double clicking on app bar doesn't expand window (#1574)"
+  },
+  {
+    "version": "40.2.0",
+    "changes": "- Fix minor UI details (#1571)\n- Add option to set spaces or settings page as startup page (#1570)\n- Rearrange preference sections (#1569)\n- Add beta update preference switch to \"Installed\" page toolbar (#1568)"
+  },
+  {
+    "version": "40.1.0",
+    "changes": "- Add support for services that require configuring login URL (#1564)\n- Fix button to create custom space is not available without Internet (#1563)"
+  },
+  {
+    "version": "40.0.0",
+    "changes": "- Fix space setup dialog shows no results error (#1561)\n- Improve space setup dialog UI (#1560)"
+  },
+  {
+    "version": "40.0.0-alpha",
+    "changes": "- Add support for castlabs/[email\u00a0protected] (#1559)"
+  },
+  {
+    "version": "39.0.1",
+    "changes": "- Fix space installing/updating status is not displayed on card (#1556)"
+  },
+  {
+    "version": "39.0.0",
+    "changes": "- Improve overall UI/UX (#1554)\n- Upgrade to [email\u00a0protected] (#1553)\n- Limit search box input's max length to 128 characters (#1547)"
+  },
+  {
+    "version": "38.0.3",
+    "changes": "- Fix @electron/remote is not enabled in menubar mode (#1542)"
+  },
+  {
+    "version": "38.0.2",
+    "changes": "- Avoid using node-fetch if ERR_CERT_DATE_INVALID does not occur (#1540)\n- Fix ERR_CERT_DATE_INVALID error on macOS 10.11 (#1539)"
+  },
+  {
+    "version": "38.0.1",
+    "changes": "- Upgrade to [email\u00a0protected] (#1538)"
+  },
+  {
+    "version": "38.0.0",
+    "changes": "- Upgrade to [email\u00a0protected] (#1537)"
+  },
+  {
+    "version": "37.3.1",
+    "changes": "- Upgrade to e[email\u00a0protected] (#1534)"
+  },
+  {
+    "version": "37.3.0",
+    "changes": "- Fix certificate has expired (replace node-fetch with electron-fetch) (#1533)"
+  },
+  {
+    "version": "37.2.1",
+    "changes": "- Fix r.read is not a function at maskIconAsync (#1530)"
+  },
+  {
+    "version": "37.2.0",
+    "changes": "- Add option to add shadows and rounded corners to custom app icons (#1528)\n- Upgrade to [email\u00a0protected] (#1529)"
+  },
+  {
+    "version": "37.1.1",
+    "changes": "- Fix license registration dialog shows up at launch for authenticated users (#1524)"
+  },
+  {
+    "version": "37.1.0",
+    "changes": "- Improve overall UX (#1523)\n- Upgrade to [email\u00a0protected] (#1522)\n- Fix account billing plan is not displayed correctly (#1516)\n- Upgrade dependencies (#1515)\n- Upgrade to [email\u00a0protected] (#1514)\n- Improve account system UX (#1513)"
+  },
+  {
+    "version": "37.0.0",
+    "changes": "- Use universal packaging on macOS (#1511)"
+  },
+  {
+    "version": "36.4.1",
+    "changes": "- Upgrade to [email\u00a0protected] (#1507)"
+  },
+  {
+    "version": "36.4.0",
+    "changes": "- Upgrade to [email\u00a0protected] (#1506)"
+  },
+  {
+    "version": "36.3.2",
+    "changes": "- Upgrade to [email\u00a0protected] (#1501)\n- Upgrade to [email\u00a0protected] (#1500)"
+  },
+  {
+    "version": "36.3.1",
+    "changes": "- Fix log in experience on Linux (#1499)"
+  },
+  {
+    "version": "36.3.0",
+    "changes": "- Fix telemetry dialog prevents interacting with the app on Linux (#1498)\n- Add support for prerelease castLabs electron (#1497)"
+  },
+  {
+    "version": "36.2.0",
+    "changes": "- Add details/app open shortcuts to snack bars (#1493)\n- Fix hyperlinks to changelog pages (#1494)\n- Fix hyperlinks to pricing page are not correctly set (#1492)\n"
+  },
+  {
+    "version": "36.1.0",
+    "changes": "- Upgrade to [email\u00a0protected] (#1488)\n- Fix upgrade button text color in light mode (#1487)"
+  },
+  {
+    "version": "36.0.0",
+    "changes": "- [WEB-11] Add ability to export apps for backup purpose (#1464)\n- [WEB-11] Add ability to export apps for backup purpose (2) (#1471)\n- [WEB-42] Add ability to restore apps from backup file (#1474)\n- [WEB-86] Improve app restoring UX (#1480)\n- Change domain from webcatalog.app to webcatalog.io (#1481)\n- Change domain from webcatalog.app to webcatalog.io (2) (#1482)\n- Fix Google prevents signing in because of security concerns (#1476)\n- Improve backup & restore UX (#1478)\n- Improve overall UX (#1477)\n- Upgrade to [email\u00a0protected] (#1473)\n- Upgrade to [email\u00a0protected] (#1472)"
+  },
+  {
+    "version": "35.1.1",
+    "changes": "- [WEB-66] Fix cannot read property 'getBrowserView' of undefined (#1470)"
+  },
+  {
+    "version": "35.1.0",
+    "changes": "- [WEB-62] Improve minor UI details in WebCatalog app (#1467)\n- [WEB-44] Improve signing in UX (#1466)\n- [WEB-60] Fix WebCatalog Accounts authentication-related bugs (#1465)"
+  },
+  {
+    "version": "35.0.0",
+    "changes": "No changes."
+  },
+  {
+    "version": "35.0.0-alpha.2",
+    "changes": "- Fix rcedit.exe is not included in production package (#1460)"
+  },
+  {
+    "version": "35.0.0-alpha",
+    "changes": "- Add Windows on ARM support (#1459)"
+  },
+  {
+    "version": "34.0.0",
+    "changes": "- Show binary architecture in about dialog (#1456)\n- Fix app icon is missing in app listing on Linux (#1455)\n- Upgrade to [email\u00a0protected] (#1454)"
+  },
+  {
+    "version": "33.1.1",
+    "changes": "- Fix some installed apps don't show up in Updates page (#1451)"
+  },
+  {
+    "version": "33.1.0",
+    "changes": "- Upgrade to [email\u00a0protected] (#1446)\n- Use in-app pop-up for signing in on Linux (#1445)\n- Show custom spaces in spaces page (#1444)\n- Migrate from Swiftype to Elastic Cloud (#1443)\n- Fix menu bar window sometimes doesn't show up when requested (#1442)"
+  },
+  {
+    "version": "33.0.0",
+    "changes": "- Move to Updates page automatically when creating custom app/space (#1439)\n- Fix Electron Framework.sig doesn't exist in older version of Neutron (#1438)\n- Add Widevine DRM support on macOS (universal) & Linux (x64) (#1437)"
+  },
+  {
+    "version": "32.3.0",
+    "changes": "- Upgrade to [email\u00a0protected] (#1433)"
+  },
+  {
+    "version": "32.2.2",
+    "changes": "- Fix mb is undefined when right click on tray icon (#1432)"
+  },
+  {
+    "version": "32.2.1",
+    "changes": "- Fix menubar window doesn't show up when opening second instance (#1431)"
+  },
+  {
+    "version": "32.2.0",
+    "changes": "- Add option to show tray/menu bar icon (#1429)\n- Fix sidebar UI details (#1428)\n"
+  },
+  {
+    "version": "32.1.0",
+    "changes": "- Improve & fix minor UI details (#1423)\n- Fix external links in app descriptions are opened in app (#1426)\n- Fix ICNS icon doesn't include @2x images (#1421)"
+  },
+  {
+    "version": "32.0.0",
+    "changes": "- Fix sidebar UI bugs (#1420)\n- Update app icon (#1418)"
+  },
+  {
+    "version": "32.0.0-alpha",
+    "changes": "- Add account system (#1413)"
+  },
+  {
+    "version": "31.4.0",
+    "changes": "- Fix UI-related bugs (#1412)"
+  },
+  {
+    "version": "31.4.0-rc",
+    "changes": "- Improve overall design (#1411)"
+  },
+  {
+    "version": "31.4.0-beta",
+    "changes": "- Switch to HSM-based code signing certificate (#1410)"
+  },
+  {
+    "version": "31.3.0",
+    "changes": "- Add Webcal protocol support (#1408)"
+  },
+  {
+    "version": "31.2.1",
+    "changes": "- Fix scroll container doesn't scroll to top when changing page (#1405)"
+  },
+  {
+    "version": "31.2.0",
+    "changes": "- Rearrange preference options (#1404)"
+  },
+  {
+    "version": "31.1.1",
+    "changes": "- Fix search filters are not applied correctly (#1402)"
+  },
+  {
+    "version": "31.1.0",
+    "changes": "- Rename WebCatalog Engine to Neutron (#1401)\n- Improve app discovery & nomenclature (#1400)\n"
+  },
+  {
+    "version": "31.0.1",
+    "changes": "- Hide apps that require WidevineCDM in the catalog (#1397)"
+  },
+  {
+    "version": "31.0.0",
+    "changes": "- Remove alternative engine (non-Electron) support (#1395)\n- Fix sentry/telemetry pref descs are in wrong places (#1392)\n- Upgrade to [email\u00a0protected] (#1390)\n- Rename \"workspaces\" to \"accounts\" or \"services\" (#1389)"
+  },
+  {
+    "version": "30.2.1",
+    "changes": "- Fix remote is undefined in menu bar mode (#1386)"
+  },
+  {
+    "version": "30.2.0",
+    "changes": "- Fix EPERM: operation not permitted, rmdir (#1384)\n- Re-enable option to pin app to system tray on Windows (#1383)\n"
+  },
+  {
+    "version": "30.1.0",
+    "changes": "- Remove unstable features on Linux & Windows (#1380)"
+  },
+  {
+    "version": "30.0.0",
+    "changes": "- Upgrade to [email\u00a0protected] (#1377)\n- Remove proxy support (#1367)\n- Remove cross-promotion section in prefs (#1366)\n- Adjust pricing (#1378)"
+  },
+  {
+    "version": "29.0.0",
+    "changes": "- Fix multiple minor bugs (#1365)\n- Improve engine picker UI/UX (#1363)\n- Add HTTP protocol support for WebKit engine (#1364)\n- Remove DynaCal/DynaMail cross-promotion (#1362)"
+  },
+  {
+    "version": "28.9.0",
+    "changes": "- Add open source notices (#1356)\n- Fix license key is not validated correctly if it includes whitespace (#1358)\n- Fix cannot read property 'legacyUserData' of undefined (#1357)\n- Cross-promote Squeezer app (#1360)\n"
+  },
+  {
+    "version": "28.8.0",
+    "changes": "- Upgrade to [email\u00a0protected] (#1355)"
+  },
+  {
+    "version": "28.7.0",
+    "changes": "- Fix system title bar pref is partial applied before the app is restarted (#1352)\n- Allow changing telemetry preference without restarting app (#1351)"
+  },
+  {
+    "version": "28.6.1",
+    "changes": "- Fix Electron cache files are unexpected removed after every installation (#1350)"
+  },
+  {
+    "version": "28.6.0",
+    "changes": "- Add button to ask for app review (#1348)"
+  },
+  {
+    "version": "28.5.0",
+    "changes": "- Add option to use system title bar and borders (#1346)\n- Add option to keep menubar attached window always on top (#1345)\n- Re-enable menu bar/taskbar mode on Windows & Linux (#1344)\n- Cross-promote new products (#1347)\n"
+  },
+  {
+    "version": "28.4.0",
+    "changes": "- Add support for user data dir name with slug (#1334)\n- Fix legacy app data path is not retrieved correctly (#1333)\n- Revert \"Use name slug as custom app ID if possible (#1329)\" (#1332)"
+  },
+  {
+    "version": "28.3.0",
+    "changes": "- Cross-promote new products (#1331)\n- Avoid using partial slug in custom app ID (#1330)\n- Use name slug as custom app ID if possible (#1329)\n- Fix apps with long IDs crash at launch on macOS (#1328)\n- Update Singlebox icon (#1319)"
+  },
+  {
+    "version": "28.2.0",
+    "changes": "- Revert \"Limit free version to only be able to create up to 10 apps (#1309)\" (#1313)"
+  },
+  {
+    "version": "28.1.0",
+    "changes": "- Verify license key at app launch (#1310)\n- Limit free version to only be able to create up to 10 apps (#1309)"
+  },
+  {
+    "version": "28.0.3",
+    "changes": "- Cross-promote other products (#1308)"
+  },
+  {
+    "version": "28.0.2",
+    "changes": "- Fix ENOENT: no such file or directory ~/.webcatalog (#1307)\n- Simplify licensing strategy (#1306)"
+  },
+  {
+    "version": "28.0.1",
+    "changes": "- Fix Chromium profile dirs are unexpectedly created for Firefox-basedapps (#1304)\n- Ensure shared preferences file exists (#1301)"
+  },
+  {
+    "version": "28.0.0",
+    "changes": "- Fix app.json is deleted before related paths are retrieved for removal (#1299)"
+  },
+  {
+    "version": "28.0.0-rc.2",
+    "changes": "- Add data collection privacy consent dialog (#1296)\n- Fix WebCatalog Engine shared data dir path is incorrect (#1297)\n"
+  },
+  {
+    "version": "28.0.0-rc",
+    "changes": "- Attach code signing requirements to prepare fo org cert change on macOS (#1295)\n- Support WebCatalog Engine to store user data in the same dir as WebCatalog (#1294)\n- Show app related files & directories in app details dialog (#1292)\n- Fix plated icons are used when updating all apps on Windows (#1293)"
+  },
+  {
+    "version": "27.5.2",
+    "changes": "- Fix open as minimized pref prevents window from showing on Windows (#1290)"
+  },
+  {
+    "version": "27.5.1",
+    "changes": "- Fix undefined icon causes exited with signal SIGSEGV on macOS (#1289)"
+  }
+]
