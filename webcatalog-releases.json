@@ -1,5 +1,9 @@
 [
   {
+    "version": "43.4.1",
+    "changes": "- [WEB-196] Fix app name is not populated correctly in snack bar (#116)"
+  },
+  {
     "version": "43.4.0",
     "changes": "- [WEB-192] Fix startup page option \"Spaces\" is not working (#113)\n- [WEB-100] Add localization support (1) (#109)\n- [WEB-190] Upgrade to [email\u00a0protected] (#111)\n- [WEB-189] Upgrade to [email\u00a0protected] (#110)\n- [WEB-100] Add localization support (#100)\n- [WEB-188] Fix corrupted app might prevent app scanning to continue (#108\n- [WEB-187] Fix corrupted package.json breaks app scanning (#107)"
   },
@@ -145,7 +149,7 @@
   },
   {
     "version": "37.3.1",
-    "changes": "- Upgrade to e[email\u00a0protected] (#1534)"
+    "changes": "- Upgrade to [email\u00a0protected] (#1534)"
   },
   {
     "version": "37.3.0",
@@ -394,9 +398,5 @@
   {
     "version": "27.5.2",
     "changes": "- Fix open as minimized pref prevents window from showing on Windows (#1290)"
-  },
-  {
-    "version": "27.5.1",
-    "changes": "- Fix undefined icon causes exited with signal SIGSEGV on macOS (#1289)"
   }
 ]
