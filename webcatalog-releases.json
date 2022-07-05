@@ -237,7 +237,7 @@
   },
   {
     "version": "33.1.0",
-    "changes": "- Upgrade to [email\u00a0protected] (#1446)\n- Use in-app pop-up for signing in on Linux (#1445)\n- Show custom spaces in spaces page (#1444)\n- Migrate from Swiftype to Elastic Cloud (#1443)\n- Fix menu bar window sometimes doesn't show up when requested (#1442)"
+    "changes": "- Upgrade to [email\u00a0protected].0.10 (#1446)\n- Use in-app pop-up for signing in on Linux (#1445)\n- Show custom spaces in spaces page (#1444)\n- Migrate from Swiftype to Elastic Cloud (#1443)\n- Fix menu bar window sometimes doesn't show up when requested (#1442)"
   },
   {
     "version": "33.0.0",
